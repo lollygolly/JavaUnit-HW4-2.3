@@ -19,7 +19,7 @@ public class MobileBankTestV7 {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Operator"))
+                .body("data", equalTo("User"))
         ;
     }
 }
