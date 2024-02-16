@@ -12,7 +12,7 @@ public class MobileBankTestV7 {
 // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Operator") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("User") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
                 .post("/post")
